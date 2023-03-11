@@ -18,6 +18,7 @@ import com.example.marsphoto.ui.theme.MarsPhotoTheme
 @Composable
 fun HomeScreen(
     marsUiState: MarsUiState,
+    retryAction: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     when (marsUiState) {
