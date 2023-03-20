@@ -8,7 +8,7 @@ import org.junit.Test
 
 
 @OptIn(ExperimentalCoroutinesApi::class)
-class NetworkMarsPhotosRepositoryTest() {
+class MarsPhotosRepositoryTest() {
     @Test
     fun networkMarsPhotosRepository_getMarsPhotos_verifyPhotoList() =
         runTest {
